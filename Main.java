@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-//Circle class tests
+    //Circle class tests
         Circle circle = new Circle(10.5);
         //Getters Setters tests
         circle.setRadius(5.5);
@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Circle circumference: "+Math.round(circle.calculateCircumference()* 100.0)/ 100.0);
         System.out.println();
 
-//Rectangle class tests
+    //Rectangle class tests
         Rectangle rectangle = new Rectangle(10,20);
         //Getters Setters tests
         rectangle.setWidth(20);
@@ -20,11 +20,11 @@ public class Main {
         rectangle.setHeight(40);
         System.out.println("Rectangle height: "+rectangle.getHeight());
         //Method tests
-        System.out.println("Rectangle area: "+rectangle.calculateArea());
-        System.out.println("Rectangle perimeter: "+rectangle.calculateCircumference());
+        System.out.println("Rectangle area: "+Math.round(rectangle.calculateArea()* 100.0)/ 100.0);
+        System.out.println("Rectangle perimeter: "+Math.round(rectangle.calculateCircumference()* 100.0)/ 100.0);
         System.out.println();
 
-//Triangle class tests
+    //Triangle class tests
         Triangle triangle = new Triangle(10,20);
         //Getters Setters tests
         triangle.setBase(20);
@@ -32,8 +32,8 @@ public class Main {
         triangle.setHeight(40);
         System.out.println("Triangle height: "+triangle.getHeight());
         //Method tests
-        System.out.println("Triangle area: "+triangle.calculateArea());
-        System.out.println("Triangle perimeter: "+triangle.calculateCircumference());
+        System.out.println("Triangle area: "+Math.round(triangle.calculateArea()* 100.0)/ 100.0);
+        System.out.println("Triangle perimeter: "+Math.round(triangle.calculateCircumference()* 100.0)/ 100.0);
         System.out.println();
 
     }

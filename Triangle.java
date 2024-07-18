@@ -4,7 +4,6 @@ public class Triangle extends Shape{
     private double base;
 
     //constructor
-
     public Triangle(double height, double base) {
         this.height = height;
         this.base = base;
@@ -34,7 +33,7 @@ public class Triangle extends Shape{
     }
 
     @Override
-    public double calculateCircumference() {  //returns perimeter //if base has a different value it wouldn't make since
-        return height*3;
+    public double calculateCircumference() {  //returns perimeter
+        return height*3; //assuming we are working with an equilateral triangle.
     }
 }

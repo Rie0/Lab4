@@ -1,7 +1,7 @@
 public class Circle extends Shape{
 
     private double radius;
-    static final double PI = 3.141592653589793238462643383279502884197; //Not private because no need to.
+    static final double PI = 3.141592653589793238462643383279502884197;
 
     //constructor
     public Circle(double radius) {
@@ -20,7 +20,7 @@ public class Circle extends Shape{
     //Override methods
     @Override
     public double calculateArea() {
-        return PI*(radius*radius); //change to 2 decimal points of precision.
+        return PI*(radius*radius);
     }
 
     @Override
